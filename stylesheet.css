@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.laptop-container img {
+    width: 400px;
+    height: auto;
+}
+
+.laptop-container{
+    position: absolute;
+    top: 120px;
+    left: 550px;
+}
+
+.button-link{
+    position: absolute;
+    top: 90px;
+    left: 55px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.lamp-container img {
+    width: 300px;
+    height: auto;
+}
+
+.lamp-container{
+    position: absolute;
+    top: 0px;
+    right: 500px;
+}
+
+.lamp-button{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    width: 150px;
+    height: 300px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.black-lamp-button{
+    position: absolute;
+    top: 10px;
+    right: 650px;
+    width: 150px;
+    height: 300px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+.black-cover img {
+    width: 2000px;
+    height: auto;
+}
+
+.black-cover{
+    position: absolute;
+    opacity: .8;
+}
