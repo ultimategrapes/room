@@ -26,5 +26,18 @@ function turnOffLamp(){
     lampImg.src = 'off_lamp.png';
 }
 
-lampButton.addEventListener('click', turnOffLamp);
+function lampOnOff(){
+    if(!lampOn){
+        blackImg.style.display = 'none';
+        lampImg.src = 'on_lamp.png';
+        lampOn = true;
+    }
+    else{
+        blackImg.style.display = 'block';
+        lampImg.src = 'off_lamp.png';
+        lampOn = false;
+    }
+}
+
+lampButton.addEventListener('click', lampOnOff);
 blackButton.addEventListener('click', turnOnLamp);
